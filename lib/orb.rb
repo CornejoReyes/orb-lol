@@ -1,5 +1,19 @@
 require "orb/version"
 require 'uri/common'
+require 'orb/champion'
+require 'orb/client'
+require 'orb/error'
+require 'orb/game'
+require 'orb/league'
+require 'orb/mastery_page'
+require 'orb/page'
+require 'orb/rune_page'
+require 'orb/rune'
+require 'orb/stats'
+require 'orb/summoner'
+require 'uri/talent'
+require 'orb/team'
+
 
 class Orb
   class << self
